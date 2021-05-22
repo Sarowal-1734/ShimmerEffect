@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="207dp"
+        android:layout_height="207dp"
+        android:foreground="?selectableItemBackground"
+        app:cardBackgroundColor="#DDDDDD"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="7dp"
+        app:cardUseCompatPadding="true" />
+</LinearLayout>
